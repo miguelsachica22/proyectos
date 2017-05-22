@@ -142,6 +142,7 @@
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\templatemo_misc.css" />
     <Content Include="css\templatemo_style.css" />
+    <Content Include="datos.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\flexslider-icon.svg" />
@@ -272,6 +273,13 @@
     </Compile>
     <Compile Include="contenido_juego.Master.designer.cs">
       <DependentUpon>contenido_juego.Master</DependentUpon>
+    </Compile>
+    <Compile Include="datos.aspx.cs">
+      <DependentUpon>datos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="datos.aspx.designer.cs">
+      <DependentUpon>datos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
